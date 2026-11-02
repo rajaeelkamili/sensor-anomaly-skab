@@ -1,0 +1,15 @@
+numpy
+pandas
+scikit-learn
+pyod
+ruptures
+torch
+matplotlib
+plotly
+streamlit
+fastapi
+uvicorn
+httpx
+pytest
+joblib
+tabulate

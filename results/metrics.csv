@@ -1,0 +1,7 @@
+protocol,model,precision,recall,f1,fpr,auroc,auprc,events,events_detected,event_recall,false_alarm_runs
+per_file_baseline,isolation_forest,0.0,0.0,0.0,0.0,0.651,0.769,16,0,0.0,0
+per_file_baseline,ecod,0.0,0.0,0.0,0.0,0.455,0.614,16,0,0.0,0
+per_file_baseline,autoencoder,0.828,0.84,0.834,0.344,0.883,0.945,16,15,0.938,58
+transfer,isolation_forest,0.663,1.0,0.797,1.0,0.521,0.683,16,16,1.0,0
+transfer,ecod,0.748,0.014,0.028,0.009,0.572,0.707,16,9,0.562,4
+transfer,autoencoder,0.663,1.0,0.797,1.0,0.599,0.78,16,16,1.0,0
